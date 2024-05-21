@@ -83,9 +83,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: var(--font-weight-bold);
 }
 
-/* to only target anchors with links use a[href].
-not used here cause it would make specificity higher and override .button declaration's value for color */
-a {
+a:link {
   color: var(--text-color);
   text-decoration: none;
 }
